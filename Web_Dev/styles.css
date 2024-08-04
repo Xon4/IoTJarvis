@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "GilmerMedium";
+  src: url("Fonts/Gilmer-Fonts/Gilmer-Medium.ttf");
+}
+
+@font-face {
+  font-family: "GilmerRegular";
+  src: url("Fonts/Gilmer-Fonts/Gilmer-Regular.ttf");
+}
+
+button {
+  font-family: "GilmerRegular";
+  font-size: larger;
+  background-color: rgb(0, 0, 0, 0);
+  border: 3px solid white;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+button:hover {
+  border: 3px solid #5ce1e6;
+  color: #5ce1e6;
+}
+
+button:active {
+  border: 3px solid #5ce1e6;
+  background-color: #5ce1e6;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-family: "GilmerMedium";
+  font-size: 60px;
+  color: white;
+}
+.row {
+  display: flex;
+}
+
+img {
+  width: 70%;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  justify-content: right;
+}
+
+.right {
+  justify-content: left;
+}
+
+.center {
+  justify-content: center;
+}
